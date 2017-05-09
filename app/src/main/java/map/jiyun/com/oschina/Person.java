@@ -1,5 +1,7 @@
 package map.jiyun.com.oschina;
 
+import android.util.Log;
+
 /**
  * Created by Administrator on 2017/5/9.
  */
@@ -49,5 +51,9 @@ public class Person {
         this.age = age;
         this.name = name;
         this.sex = sex;
+    }
+
+    public static void show(){
+        Log.e("tag","dsadsadsadasda");
     }
 }
