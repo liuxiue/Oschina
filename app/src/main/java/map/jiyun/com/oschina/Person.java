@@ -53,6 +53,12 @@ public class Person {
         this.sex = sex;
     }
 
+    public void run(){
+
+        System.out.println("代码冲突解决方法");
+    }
+
+
     public static void show(){
         Log.e("tag","dsadsadsadasda");
     }
